@@ -1,0 +1,17 @@
+/* Nav related design*/
+body{
+    font-family: "Open Sans", serif;
+        font-optical-sizing: auto;
+        
+}
+
+
+/* Nav related design*/
+
+nav{
+    display: flex;
+    
+}
+.nav-title{
+    
+}
