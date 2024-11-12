@@ -4,17 +4,19 @@ body {
     font-optical-sizing: auto;
 
 }
-.text-primary{
+
+.text-primary {
     color: darkorange;
 }
-.button-primary{
-   border-radius: 5px;
-   background: darkorange;
-   border: 0;
-   color: white;
-   padding: 18px,35px;
-   font-size: 25px;
-   font-size: 700;
+
+.button-primary {
+    border-radius: 5px;
+    background: darkorange;
+    border: 0;
+    color: white;
+    padding: 18px, 35px;
+    font-size: 25px;
+    font-size: 700;
 }
 
 /* Nav related design*/
@@ -38,30 +40,61 @@ nav {
     color: #181818;
 }
 
-nav > ul{
+nav>ul {
     display: flex;
     align-items: center;
-    
+
 }
 
-nav li{
-    list-style : none;
+nav li {
+    list-style: none;
     margin-right: 50px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
 }
 
 /* Heder related design*/
 
-.header{
+.header {
     background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
-.banner{
-    padding: 30px 30px 30px 150px;
+
+.banner {
+    padding: 30px 30px 0 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
-.banner .profile-pic{
-    width:500px
+.baner-content{
+    max-width: 500px;
 }
+
+.banner .profile-pic {
+    width: 500px
+}
+
+.banner-greet {
+    font-size: 45px;
+    margin-bottom: 5px;
+    /* Hi, I am */
+
+
+
+    /* Dark 02 */
+    color: #474747;
+
+
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+/* Main Section */
